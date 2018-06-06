@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".FormPesan">
+
+<ImageView
+    android:background="@drawable/baseline_account_circle_black_48"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+    <EditText android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:hint="Username" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+    <EditText android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:hint="Password"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.v7.widget.AppCompatButton
+    android:id="@+id/buttonLogin"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#e17055"
+    android:textColor="@android:color/white"
+    android:layout_marginTop="10dp"
+    android:textSize="17dp"
+    android:padding="12dp"
+    android:layout_gravity="center"
+    android:text="Login" />
+    <TextView
+        android:id="@+id/buttonDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar ?"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center" />
+</LinearLayout>

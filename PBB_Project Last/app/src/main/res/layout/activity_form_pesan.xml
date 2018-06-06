@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormPesan"
+    android:background="@drawable/login">
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="PEMESANAN BUS"
+            android:textAlignment="center"
+            android:layout_gravity="top|center"
+            android:textSize="12pt"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="ASAL"
+            android:textSize="6pt"
+            android:textColor="@color/white"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/txtKotaAsal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#76FF03" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TUJUAN"
+            android:textSize="6pt"
+            android:textColor="@color/white"/>
+        <AutoCompleteTextView
+            android:id="@+id/txtKotaTujuan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#76FF03"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TANGGAL BERANGKAT "
+            android:textSize="6pt"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/in_date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#76FF03"
+            />
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="PILIH TANGGAL"
+            android:textColor="@color/white"
+            android:background="#e17055"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="WAKTU "
+            android:textSize="6pt"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/in_time"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#76FF03"/>
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="PILIH WAKTU"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:background="#e17055"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="ARMADA"
+            android:layout_marginLeft="20dp"
+            android:textSize="6pt"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="#2ecc71"
+            android:onClick="onClick_Hasil"
+            android:text="PESAN"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="#c0392b"
+            android:onClick="Kembali"
+            android:text="BATAL"
+            android:textColor="@color/white" />
+</LinearLayout>

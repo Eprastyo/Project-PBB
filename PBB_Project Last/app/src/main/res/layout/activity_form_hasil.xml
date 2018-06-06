@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".FormHasil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#76FF03"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:text="PEMESANAN BUS ANDA"/>
+    <TextView
+        android:layout_width="300dp"
+        android:textColor="#76FF03"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:text="Kota Pemberangkatan : "/>
+    <TextView
+        android:id="@+id/hasilAsal"
+        android:textColor="#76FF03"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="8pt"/>
+    <TextView
+        android:layout_width="300dp"
+        android:textColor="#76FF03"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:text="Kota Tujuan : "/>
+    <TextView
+        android:id="@+id/hasilTujuan"
+        android:textColor="#76FF03"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"/>
+    <TextView
+        android:layout_width="300dp"
+        android:textColor="#76FF03"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:text="Tanggal Pemberangkatan : "/>
+    <TextView
+        android:id="@+id/tanggal"
+        android:textColor="#76FF03"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"/>
+    <TextView
+        android:layout_width="300dp"
+        android:textColor="#76FF03"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:text="Jam Pemberangkatan : "/>
+    <TextView
+        android:id="@+id/waktu"
+        android:textColor="#76FF03"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"/>
+    <Button
+        android:id="@+id/close"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="CLOSE"
+        android:layout_width="250dp"
+        android:background="#c0392b"
+        android:onClick="Close"
+        android:layout_height="wrap_content" />
+</LinearLayout>

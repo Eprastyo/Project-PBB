@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="armada_array">
+        <item>Ekonomi Patas</item>
+        <item>Ekseskutif</item>
+        <item>Super Eksekutif</item>
+        <item>VIP</item>
+        <item>VVIP</item>
+    </string-array>
+    <string name="title_activity_toolbar">Toolbar</string>
+    <string name="app_name">ECOS BUS APP</string>
+    <string name="pesan">Reservation</string>
+    <string name="armada">Armada</string>
+    <string name="agen">Agen</string>
+    <!--<string name="fragment_reservation">Fragment Reservation</string>-->
+    <!--<string name="fragment_agen">Fragment Agen</string>-->
+    <!--<string name="fragment_armada">Fragment Armada</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
